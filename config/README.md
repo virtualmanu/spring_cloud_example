@@ -1,0 +1,5 @@
+# MAKE THIS FOLDER GIT REPO, MAKE AN INITIAL COMMIT SO THAT SPRING SERVER CAN READ
+
+git init
+git add .
+git commit -m "initial"

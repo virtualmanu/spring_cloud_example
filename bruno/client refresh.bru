@@ -1,0 +1,16 @@
+meta {
+  name: client refresh
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8081/actuator/refresh
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+}
